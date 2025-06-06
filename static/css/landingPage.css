@@ -1,0 +1,122 @@
+/* Estilo general */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #212529;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el encabezado */
+.header {
+    background-color: #ffffff;
+    border-bottom: 2px solid #dee2e6;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+/* Estilo para el título DocuSearch */
+.header h1, .header h2 {
+    font-weight: bold;
+    background: linear-gradient(to right, #0d6efd, #4dabf7); /* azul degradado */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
+/* Navegación */
+.nav-link {
+    font-weight: bold;
+    color: #004080 !important; /* complementario del azul */
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #e67e22 !important; /* Un tono más fuerte de naranja */
+}
+
+/* Contenedor principal */
+.container h1 {
+    text-align: center;
+    margin: 40px 0 20px;
+}
+
+/* Imagen del logo */
+img.logo-ucentral {
+    display: block;
+    margin: 20px auto;
+    max-width: 300px;
+    height: auto;
+}
+
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+}
+
+
+/* Footer */
+footer {
+    margin-top: 120px;
+    padding: 20px 0;
+    font-size: 0.9rem;
+    background-color: #f1f1f1;
+    color: #6c757d;
+    text-align: center;
+}
+
+/* Botones */
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+    background-color: #5c636a;
+    border-color: #565e64;
+}
+
+/* Card y tabla */
+.card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    border-radius: 10px;
+}
+
+.card-header {
+    background-color: #e9f2ff;
+    font-weight: bold;
+}
+
+.table th {
+    background-color: #e9f2ff;
+}
+
+.accordion-button {
+    background-color: #f8f9fa;
+}
+
+/* Responsive fixes */
+@media (max-width: 768px) {
+    .header .d-flex {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .nav {
+        margin-top: 10px;
+    }
+}

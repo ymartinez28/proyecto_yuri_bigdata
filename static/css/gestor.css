@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(to right, #e9ecef, #f8f9fa);
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1f2d3d;
+}
+
+.header {
+    background-color: #1f2d3d;
+    padding: 1rem 0;
+    color: #ffffff;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Estilo para el título DocuSearch */
+.header h1, .header h2 {
+    font-weight: bold;
+    background: linear-gradient(to right, #0d6efd, #4dabf7); /* azul degradado */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    margin-top: 2rem;
+    box-shadow: 0 0 12px rgba(0,0,0,0.05);
+}
+
+footer {
+    background-color: #3f8efc;
+    padding: 1rem 0;
+    margin-top: 3rem;
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+
